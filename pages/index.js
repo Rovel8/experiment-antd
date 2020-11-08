@@ -1,11 +1,11 @@
 import {HeaderLayout} from "../components/layouts/HeaderLayout";
-import styles from '../styles/Home.module.css';
+import '../styles/Home.less';
 
 export default function Home() {
   return (
       <HeaderLayout>
-        <div className={styles.content}>
-            <div className={styles.gongrats}>
+        <div className={'content'}>
+            <div className={'gongrats'}>
                 Hello
             </div>
         </div>

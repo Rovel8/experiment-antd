@@ -1,7 +1,7 @@
 import {Layout, Menu, Breadcrumb, Typography} from 'antd';
 import {Row, Col, Divider} from 'antd';
 import Image from "next/image";
-import styles from './HeaderLayout.module.less'
+import styles from './HeaderLayout.less'
 
 const {Header, Content, Footer} = Layout;
 const {Title} = Typography
